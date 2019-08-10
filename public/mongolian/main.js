@@ -1,5 +1,8 @@
 
 
+
+
+
 var socket = io.connect();
 
 socket.on ('download', function(config) {
@@ -59,7 +62,8 @@ $(document).ready(function(){
     adjustLayout();
     $.get("https://horriblesubs.info/rss.php?res=1080", function (data) {
         var list = $("#rsswrapper");
-        list.html($('<p/>').addClass("rss").text($(data).find("channel").find("description").text()));
+        // list.html($('<p/>')).addClass("rss").text($(data).find("channel").find("description").text());
+		
         var unordered = $("<ul/>").addClass("left");
         var unorderedDates = $("<ul/>").addClass("right");
         var curDate = new Date();
@@ -90,6 +94,8 @@ $(document).ready(function(){
     setTimeout(function(){$('#quote').css('visibility','visible').hide().fadeIn(2000)}, 4000);
 });
 
+
+
 function searchFor(animeTitle) {
     $("#command").val("...");
     var searchString = "[HorribleSubs] " + animeTitle + " [1080p].mkv";
@@ -117,10 +123,14 @@ function adjustLayout() {
 
     var wheight = $(window).height();
     var wwidth = $(window).width();
-    var wrapperheight = $("#wrapper").height();
-    var howmuch = ( wheight * 0.55 - wrapperheight ) / 2;
+    var wrapperheight = wheight * 0.7 // $("#wrapper").height() + 200;
+    // var howmuch = ( wheight * 0.55 - wrapperheight ) / 2;
     // $("#wrapper").css("transform", "translateY(" + howmuch + "px)");
 
+	var wrapperheightmain = wheight * 0.15
+    $("#wrapper").css("height", wrapperheightmain + "px");
+	// $("#rsswrapper.rss").css("HorribleSubs Feed")
+	
     $("#rsswrapper").css("height", wrapperheight + "px");
     $('#quote').css('top', (wheight + wrapperheight - $('#quote').height()) / 2 + 100 + "px");
     $('#quote').css('right', (wwidth / 2) + 50 + "px");
@@ -161,3 +171,4 @@ function timeDifference(current, previous) {
         return Math.round(elapsed/msPerYear ) + ' years ago';
     }
 }
+
