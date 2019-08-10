@@ -44,7 +44,7 @@ div#wrapper {
     top:2%;
     left:1%;
     background : rgba(255,255,255,0.6);
-    padding: 15px;
+    padding: 5px;
     outline:5px solid rgba(255,255,255,0.6);
     visibility: hidden;
 }
@@ -52,10 +52,10 @@ div#wrapper {
 div#rsswrapper {
     width: 600px;
     position:fixed;
-    top:22%;
+    top:20%;
     left:1%;
     background : rgba(255,255,255,0.6);
-    padding: 15px;
+    padding: 5px;
     overflow-y:scroll;
     overflow-x:hidden;
     outline:5px solid rgba(255,255,255,0.6);
@@ -66,12 +66,12 @@ div#rsswrapper {
 
 #nibl {
     width: 833px;
-	height: 90%;
+	height: 95%;
     position:fixed;
     top:2%;
     right:1%;
     background : rgba(255,255,255,0.6);
-    padding: 15px;
+    padding: 5px;
     overflow-y:hidden;
     overflow-x:hidden;
     outline:5px solid rgba(255,255,255,0.6);
@@ -128,7 +128,7 @@ h2 {
     font-variant: normal;
     font-weight: 800;
     line-height: 15.4px;
-    margin-top : 10px;
+    margin-top : 0px;
 }
 
 h3 {
@@ -136,8 +136,10 @@ h3 {
     font-size: 14px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 500;
-    line-height: 15.4px;
+    font-weight: 800;
+    line-height: 10px;
+    margin-top : 0px;
+	margin-bottom: 4px;
 }
 p {
     font-family: "Droid Sans Mono";

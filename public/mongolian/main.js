@@ -131,7 +131,7 @@ function adjustLayout() {
     $("#wrapper").css("height", wrapperheightmain + "px");
 	// $("#rsswrapper.rss").css("HorribleSubs Feed")
 	
-    $("#rsswrapper").css("height", wrapperheight + "px");
+    $("#rsswrapper").css("height", wheight * 0.78);
 
 
 }
