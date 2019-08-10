@@ -1,6 +1,8 @@
 # Heroku XDCC
 ## AKA Mongolian Cartoons
 
+Fork Note: so far I have edited the front end to allow for additional commands to be searched for on and embeded nibl .
+
 ![Gif Preview](https://thumbs.gfycat.com/ComfortableCloudyCow-size_restricted.gif)
 ![Screenshot](http://i.imgur.com/WxGPDgq.png)
 
