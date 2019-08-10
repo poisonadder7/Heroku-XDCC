@@ -1,5 +1,4 @@
 # Heroku XDCC
-## AKA Mongolian Cartoons
 
 ------------
 
@@ -26,6 +25,8 @@ $ npm start
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 You probably want to access [localhost:5000/mongolian/](http://localhost:5000/mongolian/).
+
+Also includes [localhost:5000/vip/](http://localhost:5000/vip/), which plays video game music for some reason.
 
 ## Documentation
 
