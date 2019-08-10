@@ -91,7 +91,7 @@ $(document).ready(function(){
     setTimeout(function(){
         $('#rsswrapper').css('visibility','visible').hide().fadeIn(1000)
     }, 500);
-    setTimeout(function(){$('#quote').css('visibility','visible').hide().fadeIn(2000)}, 4000);
+
 });
 
 
@@ -132,8 +132,7 @@ function adjustLayout() {
 	// $("#rsswrapper.rss").css("HorribleSubs Feed")
 	
     $("#rsswrapper").css("height", wrapperheight + "px");
-    $('#quote').css('top', (wheight + wrapperheight - $('#quote').height()) / 2 + 100 + "px");
-    $('#quote').css('right', (wwidth / 2) + 50 + "px");
+
 
 }
 

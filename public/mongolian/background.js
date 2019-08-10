@@ -1,8 +1,8 @@
-var renderer, scene, camera, composer, circle, skelet, particle, tanFOV, windowHeight, _rotSpeed = 1;
+var renderer, scene, camera, composer, circle, skelet, particle, tanFOV, windowHeight, _rotSpeed = 0.2;
 
 window.onload = function() {
     init();
-    animate();
+    // animate();
 };
 
 var startupsound = new Howl({
@@ -13,7 +13,7 @@ startupsound.on('end', function(){
 });
 
 
-function init() {
+// function init() {
     renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     renderer.setPixelRatio((window.devicePixelRatio) ? window.devicePixelRatio : 1);
     renderer.setSize(window.innerWidth, window.innerHeight);
@@ -97,7 +97,7 @@ function init() {
     }, 2000);
 }
 
-function onWindowResize() {
+// function onWindowResize() {
 
     camera.aspect = window.innerWidth / window.innerHeight;
 
@@ -110,7 +110,7 @@ function onWindowResize() {
     renderer.render( scene, camera );
 }
 
-function animate() {
+// function animate() {
     requestAnimationFrame(animate);
 
     particle.rotation.x += 0.0000;
@@ -124,7 +124,7 @@ function animate() {
     renderer.render( scene, camera );
 }
 
-function toScreenPosition(obj, camera)
+// function toScreenPosition(obj, camera)
 {
     var vector = new THREE.Vector3();
 
@@ -145,6 +145,6 @@ function toScreenPosition(obj, camera)
 
 }
 
-function getCirclePos() {
+// function getCirclePos() {
     return toScreenPosition(circle, camera);
 }

@@ -22,14 +22,6 @@ html {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11e8bb', endColorstr='#8200c9',GradientType=0 ); /* IE6-9 */
 }
 
-#donate > img {
-    width:150px;
-    height:150px;
-    position: fixed;
-    left:5px;
-    bottom:5px;
-}
-
 
 #full-size{
 
@@ -73,8 +65,8 @@ div#rsswrapper {
 }
 
 #nibl {
-    width: 900px;
-	height: 80%;
+    width: 833px;
+	height: 90%;
     position:fixed;
     top:2%;
     right:1%;
@@ -106,15 +98,11 @@ div#rsswrapper {
     font-style : italic;
     font-weight: bolder;
     padding: 15px;
+	top:2%;
 }
 
 div#quote {
     text-align: right;
-	position: fixed;
-    top: 20%;
-    right: 20%;
-    margin-right: 110px;
-    visibility: hidden;
 }
 
 #status {
