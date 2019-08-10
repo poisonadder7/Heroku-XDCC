@@ -1,10 +1,13 @@
 # Heroku XDCC
 ## AKA Mongolian Cartoons
 
-Fork Note: So far I have edited the front end to allow for additional commands to be searched for on an embeded nibl.
+------------
 
-![Gif Preview](https://thumbs.gfycat.com/ComfortableCloudyCow-size_restricted.gif)
-![Screenshot](http://i.imgur.com/WxGPDgq.png)
+Fork Note:  Removed background effects
+            Embeded nibl search page to get pack file commands in the same window
+            changed layout
+
+------------
 
 A Node.js App that lets you download files from [#NIBL](https://nibl.co.uk/bots.php) channel on Rizon IRC server.
 This can be further customized and expanded by changing the irc server ip.
