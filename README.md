@@ -24,17 +24,6 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 You probably want to access [localhost:5000/mongolian/](http://localhost:5000/mongolian/).
 
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/poisonadder7/Heroku-XDCC)
-
 ## Documentation
 
 For more information about using Node.js on Heroku, see these Dev Center articles:
