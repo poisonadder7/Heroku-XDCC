@@ -14,7 +14,7 @@ This can be further customized and expanded by changing the irc server ip.
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
 ```sh
-$ git clone https://github.com/penandlim/Heroku-XDCC # or clone your own fork
+$ git clone https://github.com/poisonadder7/Heroku-XDCC # or clone your own fork
 $ cd Heroku-XDCC
 $ npm install
 $ npm start
@@ -33,7 +33,7 @@ $ heroku open
 ```
 or
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/penandlim/Heroku-XDCC)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/poisonadder7/Heroku-XDCC)
 
 ## Documentation
 
